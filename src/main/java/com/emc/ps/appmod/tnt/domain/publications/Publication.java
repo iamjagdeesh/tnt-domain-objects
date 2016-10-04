@@ -7,6 +7,8 @@ public class Publication {
 	private Integer id;
 
 	private String name;
+	
+	private Integer magazineId;
 
 	private Date magazineDeliveryDate;
 
@@ -102,6 +104,14 @@ public class Publication {
 
 	public void setUpdateDate(Date updateDate) {
 		this.updateDate = updateDate;
+	}
+
+	public Integer getMagazineId() {
+		return magazineId;
+	}
+
+	public void setMagazineId(Integer magazineId) {
+		this.magazineId = magazineId;
 	}
 
 	//private Magazine magazine;
